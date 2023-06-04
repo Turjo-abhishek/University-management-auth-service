@@ -13,13 +13,14 @@
   },
   "author": "abhishek turjo",
   "license": "ISC",
-  "lint-staged":{
+  "lint-staged": {
     "src/**/*.ts": "yarn lint-prettier"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.17",
     "eslint-config-prettier": "^8.8.0",
+    "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.0.4"
